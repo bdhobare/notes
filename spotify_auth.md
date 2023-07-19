@@ -8,4 +8,4 @@ The Spotify [Web API](https://developer.spotify.com) allows, among other things,
 I had been hacking around with the API, and here we are going to implement a Rust web service that authenticates with the API and fetches the tracks on your Discover Weekly playlist.
 
 ## What we're going to build
-![auth.png](../../CLionProjects/discover-weekly/docs/auth.png)
+![auth.png](auth.png)
