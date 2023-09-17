@@ -1,4 +1,4 @@
-# Managing Config in Rust Services
+# Managing  Application Config in Rust
 One of the tenets of a [Twelve-Factor app](https://12factor.net/) is to store application configs in the environment the application is deployed to. To pass config values to an application, developers typically use Environment Variables.  There a multiple ways to set these config values, we will look at three of them:
 1. Reading from Environment Variables
 2. `.env` files
@@ -27,6 +27,7 @@ pub trait ConfigProvider {
 
 
 ## 2: Reading from Command Line Arguments
+
 
 ## 3: Reading from `.env` file
 A common practice during development is to use a `.env` file holding the config values. You can have multiple env files according to the environment you are targeting, e.g `.env.development`, `.env.staging` and `.env.production`.
